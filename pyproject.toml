@@ -1,0 +1,26 @@
+[project]
+name = "solvro-warsztaty"
+version = "0.1.0"
+description = "Image classifier app using GoogleNet"
+authors = [
+    {name = "w1ndrunn3rr",email = "w1ndrunn3rr@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "torch>=1.9.0",
+    "torchvision>=0.10.0",
+    "Pillow>=8.0.0",
+]
+
+[tool.poetry]
+name = "solvro-warsztaty"
+version = "0.1.0"
+description = "Image classifier app using GoogleNet"
+authors = ["w1ndrunn3rr <w1ndrunn3rr@gmail.com>"]
+packages = [{include = "*", from = "."}]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
